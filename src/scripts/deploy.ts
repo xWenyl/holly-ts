@@ -6,9 +6,10 @@ config({ path: resolve(__dirname, '..', '..', '.env')})
 import{ REST, Routes, APIUser } from 'discord.js'
 import commands from '../commands'
 import keys from '../keys'
+import { CommandMeta } from '../types'
 
 const body = commands
-  .map(({ commands }) => commands.map(({ meta }) => meta))
+  .map(({ commands }) => commands.map(({ meta }: {meta: CommandMeta}) => meta))
   .flat();
 
 const rest = new REST({ version: '10'}).setToken(keys.clientToken)
