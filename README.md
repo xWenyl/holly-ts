@@ -9,11 +9,11 @@
 
 
 ### General
-- /help - Get a list of all commands'
+- /help - Get a list of all commands
 
 ![Help command](https://imgur.com/sTehP7g.png)
 
-- /shorten `{url}` `{alias}` - Shorten provided URL'
+- /shorten `{url}` `{alias}` - Shorten provided URL
 
 ![Shorten command](https://imgur.com/Md7vlaQ.png)
 
@@ -28,8 +28,8 @@
 - /randomdog - Get a random dog picture
 
 ### Valorant
-- /checkrank `{name}` `{tag}` - Check valorant rank"
-- /randomspray - Generate random Valorant spray"
+- /checkrank `{name}` `{tag}` - Check valorant rank
+- /randomspray - Generate random Valorant spray
 - /getskin `{skin}` `{variant}` - Get Valorant skin
 
 ## License
