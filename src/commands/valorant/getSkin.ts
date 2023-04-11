@@ -6,7 +6,7 @@ import axios from "axios";
 
 const meta = new SlashCommandBuilder()
   .setName("getskin")
-  .setDescription("Get valorant skin")
+  .setDescription("Get Valorant skin")
   .addStringOption((option) =>
     option
       .setName("skin")

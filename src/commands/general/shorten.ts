@@ -44,7 +44,7 @@ export default command(meta, async ( { interaction }) => {
 
       }
 
-      const shortenedUrl = await shortenUrl(userURL, userAlias)
+      const shortenedUrl: string = await shortenUrl(userURL, userAlias)
 
       return interaction.reply(`Your shortened URL: https://gotiny.cc/${shortenedUrl}`)
 

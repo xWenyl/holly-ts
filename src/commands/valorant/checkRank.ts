@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const meta = new SlashCommandBuilder()
   .setName("checkrank")
-  .setDescription("Check valorant rank")
+  .setDescription("Check Valorant rank")
   .addStringOption((option) =>
     option
       .setName("name")

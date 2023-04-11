@@ -6,7 +6,7 @@ import axios from "axios";
 
 const meta = new SlashCommandBuilder()
   .setName("randomspray")
-  .setDescription("Get random Valorant spray")
+  .setDescription("Generate random Valorant spray")
 
 
 interface Spray {
