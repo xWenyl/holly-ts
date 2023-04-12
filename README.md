@@ -1,4 +1,6 @@
-# Holly discord bot
+# Holly - Discord bot
+
+![Holly image](https://imgur.com/2onUsK7.png)
 
 **Holly** s a TypeScript-based private Discord bot that offers a range of functionalities to enhance the user experience on Discord.
 
